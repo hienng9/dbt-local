@@ -1,0 +1,90 @@
+[0m21:12:42.816837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd956a15de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd954c545e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd954c54670>]}
+
+
+============================== 21:12:42.820429 | 4bddf65a-3e4d-48f5-b3ab-98f5401bfb3c ==============================
+[0m21:12:42.820429 [info ] [MainThread]: Running with dbt=1.6.5
+[0m21:12:42.821288 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hien/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init transformation', 'send_anonymous_usage_stats': 'True'}
+[0m21:12:42.821980 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/hien/.dbt')}
+[0m21:12:42.822572 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:12:42.824896 [debug] [MainThread]: Starter project path: /home/hien/Documents/week1_basics_n_setup/2_docker_sql/dezoomcamp/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:12:42.829719 [info ] [MainThread]: 
+Your new dbt project "transformation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:12:42.830583 [info ] [MainThread]: Setting up your profile.
+[0m21:17:41.554558 [info ] [MainThread]: Profile transformation written to /home/hien/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:17:41.621698 [debug] [MainThread]: Command `dbt init` succeeded at 21:17:41.620388 after 298.81 seconds
+[0m21:17:41.630115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd956a15de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd958e59f60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd958e58d90>]}
+[0m21:17:41.645041 [debug] [MainThread]: Flushing usage events
+[0m21:18:15.214189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6581619de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657f854130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f657f854250>]}
+
+
+============================== 21:18:15.219725 | a83498a0-216a-44bf-95b3-d8fa90c6c385 ==============================
+[0m21:18:15.219725 [info ] [MainThread]: Running with dbt=1.6.5
+[0m21:18:15.220615 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hien/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:15.221397 [info ] [MainThread]: dbt version: 1.6.5
+[0m21:18:15.221983 [info ] [MainThread]: python version: 3.10.12
+[0m21:18:15.222541 [info ] [MainThread]: python path: /home/hien/Documents/week1_basics_n_setup/2_docker_sql/dezoomcamp/bin/python
+[0m21:18:15.223096 [info ] [MainThread]: os info: Linux-6.2.0-35-generic-x86_64-with-glibc2.35
+[0m21:18:16.515363 [info ] [MainThread]: Using profiles dir at /home/hien/.dbt
+[0m21:18:16.516239 [info ] [MainThread]: Using profiles.yml file at /home/hien/.dbt/profiles.yml
+[0m21:18:16.516977 [info ] [MainThread]: Using dbt_project.yml file at /home/hien/Documents/week1_basics_n_setup/dbt-local/dbt_project.yml
+[0m21:18:16.518111 [info ] [MainThread]: adapter type: bigquery
+[0m21:18:16.518777 [info ] [MainThread]: adapter version: 1.6.7
+[0m21:18:16.519711 [info ] [MainThread]: Configuration:
+[0m21:18:16.520469 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:18:16.521492 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:18:16.522744 [info ] [MainThread]: Required dependencies:
+[0m21:18:16.523844 [debug] [MainThread]: Executing "git --help"
+[0m21:18:16.526829 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:18:16.528153 [debug] [MainThread]: STDERR: "b''"
+[0m21:18:16.528826 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:18:16.529539 [info ] [MainThread]: Connection:
+[0m21:18:16.530272 [info ] [MainThread]:   method: service-account
+[0m21:18:16.530934 [info ] [MainThread]:   database: de-zoomcamp-401109
+[0m21:18:16.531591 [info ] [MainThread]:   execution_project: de-zoomcamp-401109
+[0m21:18:16.532221 [info ] [MainThread]:   schema: secondhand_boats
+[0m21:18:16.532843 [info ] [MainThread]:   location: EU
+[0m21:18:16.533467 [info ] [MainThread]:   priority: interactive
+[0m21:18:16.534207 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:18:16.534991 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:18:16.535896 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:18:16.536792 [info ] [MainThread]:   job_retries: 1
+[0m21:18:16.537657 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:18:16.538480 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:18:16.539329 [info ] [MainThread]:   keyfile: /.google/credentials/de-zoomcamp-creds.json
+[0m21:18:16.540248 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:18:16.541041 [info ] [MainThread]:   refresh_token: None
+[0m21:18:16.541727 [info ] [MainThread]:   client_id: None
+[0m21:18:16.542431 [info ] [MainThread]:   token_uri: None
+[0m21:18:16.543192 [info ] [MainThread]:   dataproc_region: None
+[0m21:18:16.544225 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:18:16.545179 [info ] [MainThread]:   gcs_bucket: None
+[0m21:18:16.545991 [info ] [MainThread]:   dataproc_batch: None
+[0m21:18:16.546759 [info ] [MainThread]: Registered adapter: bigquery=1.6.7
+[0m21:18:16.547764 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:18:16.548403 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:18:16.549101 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: '/.google/credentials/de-zoomcamp-creds.json''
+[0m21:18:16.550056 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:18:16.550802 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:18:16.551656 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/hien/Documents/week1_basics_n_setup/dbt-local/dbt_project.yml> not found
+
+[0m21:18:16.552879 [debug] [MainThread]: Command `dbt debug` failed at 21:18:16.552679 after 1.35 seconds
+[0m21:18:16.554057 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:18:16.554762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6581619de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6567bc8b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6567bc8c70>]}
+[0m21:18:16.555558 [debug] [MainThread]: Flushing usage events
